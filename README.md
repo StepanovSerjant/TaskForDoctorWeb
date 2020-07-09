@@ -48,6 +48,7 @@ DELETE http://host:port/remove?h=<хеш>
 
 
 <h3>Установка и запуск:</h3>
+
 ```bash
     git clone https://github.com/StepanovSerjant/TaskForDoctorWeb.git
     cd TaskForDoctorWeb
@@ -60,6 +61,7 @@ DELETE http://host:port/remove?h=<хеш>
 
 Вышеуказанное приложение будет запущено в фоновом режиме. 
 Этот скрипт верхнего уровня можно легко использовать для запуска / остановки фонового процесса:
+
 ```bash
     usage:  main.py [-h] {start,stop}
 ```
