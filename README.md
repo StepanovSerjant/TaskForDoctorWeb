@@ -48,7 +48,7 @@ DELETE http://host:port/remove?h=<хеш>
 
 
 <h3>Установка:</h3>
-```python
+```
   git clone https://github.com/StepanovSerjant/TaskForDoctorWeb.git
 
   cd TaskForDoctorWeb
@@ -63,7 +63,7 @@ DELETE http://host:port/remove?h=<хеш>
 
 <h3>Запуск:</h3>
 
-```python
+```
   cd app
   python3 main.py
 ```
