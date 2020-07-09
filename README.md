@@ -49,28 +49,23 @@ DELETE http://host:port/remove?h=<хеш>
 
 <h3>Установка:</h3>
 ```python
+  git clone https://github.com/StepanovSerjant/TaskForDoctorWeb.git
 
-git clone https://github.com/StepanovSerjant/TaskForDoctorWeb.git
+  cd TaskForDoctorWeb
 
-cd TaskForDoctorWeb
+  python3 -m venv venv
 
-python3 -m venv venv
+  venv/bin/activate
 
-venv/bin/activate
-
-pip3 install -r requirements.txt 
-
+  pip3 install -r requirements.txt 
 ```
 
 
 <h3>Запуск:</h3>
 
 ```python
-
-cd app
-
-python3 main.py
-
+  cd app
+  python3 main.py
 ```
 
 Вышеуказанное приложение будет запущено в фоновом режиме. 
