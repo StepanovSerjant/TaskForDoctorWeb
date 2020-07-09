@@ -49,24 +49,24 @@ DELETE http://host:port/remove?h=<хеш>
 
 <h3>Установка:</h3>
 ```
-git clone https://github.com/StepanovSerjant/TaskForDoctorWeb.git
-cd TaskForDoctorWeb
-python3 -m venv venv
-venv/bin/activate
-pip3 install -r requirements.txt 
+  git clone https://github.com/StepanovSerjant/TaskForDoctorWeb.git
+  cd TaskForDoctorWeb
+  python3 -m venv venv
+  venv/bin/activate
+  pip3 install -r requirements.txt 
 ```
 
 
 <h3>Запуск:</h3>
 ```
-cd app
-python3 main.py
+  cd app
+  python3 main.py
 ```
 
 Вышеуказанное приложение будет запущено в фоновом режиме. 
 Этот скрипт верхнего уровня можно легко использовать для запуска / остановки фонового процесса:
 ```
-usage:  main.py [-h] {start,stop}
+  usage:  main.py [-h] {start,stop}
 ```
 
 Библиотека гарантирует, что приложение будет запущено только один раз - так что несколько запуском никак не сможет навредить.
