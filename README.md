@@ -49,11 +49,15 @@ DELETE http://host:port/remove?h=<хеш>
 
 <h3>Установка:</h3>
 ```
-  git clone https://github.com/StepanovSerjant/TaskForDoctorWeb.git
-  cd TaskForDoctorWeb
-  python3 -m venv venv
-  venv/bin/activate
-  pip3 install -r requirements.txt 
+    git clone https://github.com/StepanovSerjant/TaskForDoctorWeb.git
+  
+    cd TaskForDoctorWeb
+  
+    python3 -m venv venv
+ 
+    venv/bin/activate
+  
+    pip3 install -r requirements.txt 
 ```
 
 
